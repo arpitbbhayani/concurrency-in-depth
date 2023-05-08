@@ -5,6 +5,10 @@ This repository contains examples to help engineers understand concurrency and m
 These concepts can be difficult to grasp, even for experienced developers, so the examples in this repository
 are designed to help build intuition around multi-threaded code.
 
+These videos are part of the ["Concurrency In Depth"](https://www.youtube.com/playlist?list=PLsdq-3Z1EPT3VjDhjMb5yBsgn0wn2-fjp)
+series by [Arpit Bhayani](https://arpitbhayani.me/) which can be found on his YouTube channel
+[Asli Engineering by Arpit Bhayani](https://www.youtube.com/@AsliEngineering).
+
 ## Introduction
 
 As software systems become more complex, concurrency and multi-threading have become increasingly important.
@@ -22,11 +26,24 @@ If you are new to these concepts, we recommend reading some introductory materia
 
 To run the examples, navigate to the directory for the example you want to run and follow the instructions in the `README.md` file for that directory.
 
-## Examples
+## Topics
 
-This repository contains the following examples:
+This repository covers the following topics:
 
-- **01-fair-threads**: demonstrates how to write fair threads and get optimum performance
-- **02-multi-threaded-tcp-server**: demonstrates why TCP based servers are multi-threaded and how to build one from scratch
+- [01-fair-threads](https://youtu.be/2PjlaUnrAMQ) demonstrates how to write fair threads and get optimum performance
+- [02-multi-threaded-tcp-server](https://youtu.be/f9gUFy-9uCM) demonstrates why TCP based servers are multi-threaded and how to build one from scratch
 
 Each example contains a `README.md` file that provides instructions for running the example and an explanation of the concepts demonstrated in the example.
+
+### Pipeline
+
+- [ ] Why Count++ Is not atomic - Peek into machine instructions
+- [ ] Semaphores and Pessimistic Locking in multi-threaded systems
+- [ ] Optimistic Locking and achieveing concurrency without locks
+- [ ] Atomic Operations vs Locks - Bechmark and Trade-offs 
+- [ ] Concurrency is not parallelism
+- [ ] Is python really multi-threaded?
+- [ ] Python GIL impact on multi-threading
+- [ ] Are fibres lightweight threads? How do they work?
+- [ ] What are Goroutines and how are they implemented?
+- [ ] Golang Concurrency Patterns
