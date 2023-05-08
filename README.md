@@ -21,3 +21,11 @@ To run the examples in this repository, you will need a basic understanding of c
 If you are new to these concepts, we recommend reading some introductory material before diving into the examples.
 
 To run the examples, navigate to the directory for the example you want to run and follow the instructions in the `README.md` file for that directory.
+
+## Examples
+
+This repository contains the following examples:
+
+- **01-fair-threads**: demonstrates how to write fair threads and get optimum performance
+
+Each example contains a `README.md` file that provides instructions for running the example and an explanation of the concepts demonstrated in the example.
