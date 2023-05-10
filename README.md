@@ -32,12 +32,12 @@ This repository covers the following topics:
 
 - [01-fair-threads](https://youtu.be/2PjlaUnrAMQ) demonstrates how to write fair threads and get optimum performance
 - [02-multi-threaded-tcp-server](https://youtu.be/f9gUFy-9uCM) demonstrates why TCP based servers are multi-threaded and how to build one from scratch
+- [03-non-atomic-count++](https://youtu.be/kBHd7kn_1EU) demonstrates why count++ operation is not atomic by peeking into the assembly level code
 
 Each example contains a `README.md` file that provides instructions for running the example and an explanation of the concepts demonstrated in the example.
 
 ### Pipeline
 
-- [ ] Why Count++ Is not atomic - Peek into machine instructions
 - [ ] Semaphores and Pessimistic Locking in multi-threaded systems
 - [ ] Optimistic Locking and achieveing concurrency without locks
 - [ ] Atomic Operations vs Locks - Bechmark and Trade-offs 
