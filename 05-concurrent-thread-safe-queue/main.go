@@ -38,27 +38,31 @@ func (q *ConcurrentQueue) Size() int {
 const NUM_THREADS int = 1000000
 
 func main() {
-	queue := &ConcurrentQueue{}
+	queue := &ConcurrentQueue{
+		queue: make([]int32, 0),
+	}
 
-	var wg sync.WaitGroup
+	var wgE sync.WaitGroup
+	var wgD sync.WaitGroup
 
 	for i := 0; i < NUM_THREADS; i++ {
+		wgE.Add(1)
 		go func() {
-			wg.Add(1)
 			queue.Enqueue(rand.Int31())
-			wg.Done()
+			wgE.Done()
 		}()
 	}
-	wg.Wait()
-	fmt.Println("size:", queue.Size())
 
 	for i := 0; i < NUM_THREADS; i++ {
+		wgD.Add(1)
 		go func() {
-			wg.Add(1)
 			queue.Dequeue()
-			wg.Done()
+			wgD.Done()
 		}()
 	}
-	wg.Wait()
+
+	wgE.Wait()
+	wgD.Wait()
+
 	fmt.Println("size:", queue.Size())
 }

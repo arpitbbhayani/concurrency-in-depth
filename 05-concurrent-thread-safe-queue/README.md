@@ -19,6 +19,5 @@ $ go run main.go
 Once the commands completes the execution, you should see following output in the terminal session.
 
 ```
-size: 1000000
 size: 0
 ```
