@@ -2,7 +2,7 @@ Hitting the Deadlock
 ===
 
 You can try out the same example on [Replit](https://replit.com/~) and here's
-the link to this very code [Non-atomic count++](https://replit.com/@arpitbbhayani/Non-Atomic-Count).
+the link to this very code [Simulating Deadlock](https://replit.com/@arpitbbhayani/Simulating-Deadlock).
 
 You can also choose to run this locally, and here are the steps.
 
