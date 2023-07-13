@@ -38,8 +38,6 @@ Each example contains a `README.md` file that provides instructions for running 
 
 ### Pipeline
 
-- [ ] Semaphores and Pessimistic Locking in multi-threaded systems
-- [ ] Optimistic Locking and achieveing concurrency without locks
 - [ ] Atomic Operations vs Locks - Bechmark and Trade-offs 
 - [ ] Concurrency is not parallelism
 - [ ] Is python really multi-threaded?
