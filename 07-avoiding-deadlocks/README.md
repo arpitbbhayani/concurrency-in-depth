@@ -2,7 +2,7 @@ Avoiding Deadlocks
 ===
 
 You can try out the same example on [Replit](https://replit.com/~) and here's
-the link to this very code [Non-atomic count++](https://replit.com/@arpitbbhayani/Non-Atomic-Count).
+the link to this very code [Deadlock-free Code through Total Order](https://replit.com/@arpitbbhayani/Writing-Deadlock-free-Code-throughTotal-Order).
 
 You can also choose to run this locally, and here are the steps.
 
